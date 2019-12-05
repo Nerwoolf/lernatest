@@ -1,0 +1,22 @@
+node_modules
+.idea
+dist
+lib
+build
+
+# coverages and test results
+coverage
+junit.xml
+
+.awcache
+*.tsbuildinfo
+lerna-debug.log
+
+# npm tasks crash reports
+report.*.json
+
+*.zip
+*.7z
+
+# override exclusion of packages folder in root .gitignore
+!packages
